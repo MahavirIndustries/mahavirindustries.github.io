@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Stainless Steel KitchenRack, S.S. KitchenRack,Mudit KitchenRack, Mudit, Cheap Kitchenrack, Kitchenracks, Manufacturer of S.S. Kitchenrack, Ghoda, Mudit Ghoda, Manufacturer of mudit KitchenRack,">
+    <meta name="description" content="Manufacturer of S.S. KitchenRack, Official Websit of Mahavir Industries company behind Mudit S.S. KitchenRack.">
+    <meta name="author" content="Dhaval Jain">
+    <link rel="icon" type="image/png" href="Images/logo.png">
+    
+    <script src="https://kit.fontawesome.com/e2cd711219.js" crossorigin="anonymous"></script>
+    <title>Mahavir Industries</title>
+ <style>
+   #sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  margin:2% 0 0 2%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 100%;
+  width:100%;
+  cursor: pointer;
+  background-image: url("Images/bg2.jpg");
+  color: white;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    font-size: small;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;  
+     }
+       
+      
+      li {
+        display: inline;
+        margin-left: 3%;
+        margin-right: 3%; 
+     }
+     h2{
+         display:flex;
+         flex-direction: row;
+     }
+     h2:after{
+         content: "";
+         flex:1 1;
+         border-bottom: 2px solid black;
+        margin: auto;
+        }
+footer{
+    background-image: url(Images/bg2.jpg);
+    text-align: center;
+    padding:2%;
+}
+footer a{
+    text-decoration: none;
+    font-style: bold;
+    color: white;
+    display: inline-block;
+}
+footer a {
+    padding: 1%;
+    background-color: rgb(55, 148, 148);
+    border: 2px ridge black;
+    overflow:auto;
+}
+footer a:hover {
+    padding: 1%;
+    background-color: teal;
+    border: 2px ridge black;
+    color:blue;
+}
+#page{
+        display: inline-block;
+        background-color:darkcyan;
+        border:2px solid black;
+        color: white;
+        margin: 0 0 1% 0;
+        padding: 1%;  
+      }      
+      #content section{
+        border:2px solid black;
+        border-radius: 5px;
+        overflow: auto;
+        
+      }
+      #content section img{
+        display: inline;
+        height: 50%;
+        width: 50%;
+        float: left;
+        padding:2% 2% 2% 1%;
+        max-width: 350px;
+        max-height: 350px;
+      }
+      #content section a
+      {
+          text-decoration: none;
+          color: black;
+      }
+       #content ::after{
+         clear: both;
+       }
+
+
+    </style>
+</head>
+<body style="background-image: url(images/Bg.jpg);background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html"><i class="fa fa-user-circle"></i>About Us</a>
+        <a href="Products.html"><i class="fa fa-star"></i>Products</a>
+        <a href="#ContactUs"><i class="fa fa-mobile"></i>Contact Us</a>
+        <a href="#"><i class="fa fa-gift"></i>Offers</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">
+            <h1 style="background-image: url(images/bg2.jpg); margin-top: 0%; margin-bottom: 0%; text-align: center; color: antiquewhite;font-family: 'Times New Roman', Times, serif;">
+              <img src="Images/logo.png" style="width:10%; height: 10%;"></img><br>  
+                <i class="fa fa-bars" style="float: left; padding: 1% 0 0 2%;"></i>Mahavir Industries</h1></div>
+        </button>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "200px";
+       
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+      </script>
+
+
+    <ul style="list-style-type:none">
+    <li><a href="index.html"><img width="17.5%" height="20%" src="Images/Home.png"></li></a>
+    <li><a href="Products.html"><img width="17.5%" height="20%"src="Images/Products.png" style="border: 1px solid black; background-color: rgba(0,0,0,0.1);"></a></li>
+    <li><a href="#ContactUs"><img width="17.5%" height="20%"src="Images/ContactUs.png"></a></li>
+    <li><img width="17.5%" height="20%"src="Images/Offer.png"></li>    
+</ul>
+<h2 style="font-size: 180%;">Products </h2>
+
+<div id="content">
+<section><a href="Productdetails1.html"><img src="Images/ppp6.jpg" alt="manufacturing product">
+<br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif ;">Product Name :</b> <br><b><i>S.S. KitchenRack</i></b>
+<br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Brand        :</b> <b><i>Mudit</i></b>
+<br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Size         :</b> <b><i>30*24 </i></b>
+<br>    <b style="color: darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Price        :</b> <b><i><s>750</s> 720 </i><i class="fa fa-inr"></i>/-</b>
+<br>    <b><i style="color: green;">/** In Stock **/</i></b>
+</a></section>
+
+<hr width=75%>
+<section><a href="Productdetails2.html"><img src="Images/ppp2.jpg" alt="manufacturing product">
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif ;">Product Name :</b> <br><b><i>S.S. KitchenRack</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Brand        :</b> <b><i>Mudit</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Size         :</b> <b><i>30*30</i></b>
+    <br>    <b style="color: darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Price        :</b> <b><i><s>810</s> 780 </i><i class="fa fa-inr"></i>/-</b>
+    <br>    <b><i style="color: green;">/** In Stock **/</i></b>  
+  </a></section>
+        
+    <hr width=75%>
+<section><a href="Productdetails3.html"><img src="Images/ppp3.jpg" alt="manufacturing product">
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif ;">Product Name :</b> <br><b><i>S.S. KitchenRack</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Brand        :</b> <b><i>Mudit</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Size         :</b> <b><i>38*30</i></b>
+    <br>    <b style="color: darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Price        :</b> <b><i><s>930</s> 900 </i><i class="fa fa-inr"></i>/-</b>
+    <br>    <b><i style="color: green;">/** In Stock **/</i></b>  
+  </a></section>
+    
+    <hr width=75%>
+<section><a href="Productdetails4.html"><img src="Images/ppp4.jpg" alt="manufacturing product">
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif ;">Product Name :</b> <br><b><i>S.S. KitchenRack</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Brand        :</b> <b><i>Mudit</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Size         :</b> <b><i>38*36</i></b>
+    <br>    <b style="color: darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Price        :</b> <b><i><s>1000</s> 970 </i><i class="fa fa-inr"></i>/-</b>
+    <br>    <b><i style="color: green;">/** In Stock **/</i></b>  
+  </a></section>
+    
+
+    <hr width=75%>
+<section><a href="Productdetails5.html"><img src="Images/ppp5.jpg" alt="manufacturing product">
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif ;">Product Name :</b> <br><b><i>S.S. KitchenRack</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Brand        :</b> <b><i>Mudit</i></b>
+    <br>    <b style="color:darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Size         :</b> <b><i>48*36</i></b>
+    <br>    <b style="color: darkred; font-size: 110%; font-family:'Times New Roman', Times, serif">Price        :</b> <b><i><s>1180</s> 1150 </i><i class="fa fa-inr"></i>/-</b>
+    <br>    <b><i style="color: green;">/** In Stock **/</i></b>  
+  </a></section>
+    
+
+    <hr width=75%>
+                                    
+</div>
+
+
+<footer style="font-size: 150%;color: lavender;">
+  <section id="ContactUs"><a href="tel:9429563513"><i class="fas fa-phone-alt" ></i>Contact Us:<br>9429563513</a><hr width=90%></section>
+  <a href="mailto:mahavirind2010@gmail.com"><i class="fas fa-envelope"></i>Mail Us:<br>mahavirind2010@gmail.com</a><hr width=90%>
+   <address>
+      <b>Address:</b><br>
+      12/5 Raghukul Estate;<br>
+      Odhav;<br>
+      Ahmedabad.
+  </address><hr width=90%>
+  <div><b>Our Motto:</b><br>"Providing Supreme Quality at Best Prices."</div><hr width=90%>
+  <div style="text-align: center;"> <i class="fa fa-copyright"></i> Copyright Mahavir Industries 2010</div>
+</footer>
+
+</body>
